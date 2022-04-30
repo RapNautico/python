@@ -8,7 +8,7 @@ class Persona:
         self.__correo = correo
 
     def _str_(self):
-        return f"{self._nombre} - {self.telefono} - {self.edad} - {self.direccion} - {self._correo}"
+        return f"{self.__nombre} - {self.__telefono} - {self.__edad} - {self.__direccion} - {self.__correo}"
 
     @property
     def nombre(self):
